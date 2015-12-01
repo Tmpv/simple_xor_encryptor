@@ -7,16 +7,12 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'xor_encryptor'
+gem 'xor_encryptor', :git => "https://github.com/Tmpv/simple_xor_encryptor.git"
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install xor_encryptor
 
 ## Usage
 
