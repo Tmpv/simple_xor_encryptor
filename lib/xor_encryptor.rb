@@ -22,7 +22,7 @@ module XorEncryptor
     end
 
     def self_xor_digest(string)
-      string.split("").reduce("0"){|c, x| c.to_s.ord ^ x.ord }
+      string.split('').reduce(0){|c, x| c ^ x.ord }
     end
   end
 end
